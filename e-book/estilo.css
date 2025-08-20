@@ -1,15 +1,30 @@
 body {
-    background-color: rgba(216, 86, 86, 0.849);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
+    background-color: rgb(2, 133, 133);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
-    margin: auto;
-    color: white;
+    margin: 0px;
+    padding: 0px;
 }
 
-header {
+header > h1 {
     text-align: center;
     padding: 10px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.322);
 }
+
+header > p {
+    padding: 10px;
+}
+
+h2, P {
+    padding: 10px;
+}
+
+img {
+    width: 90vw;
+    text-align: center;
+    height: 100vh;
+}
+
